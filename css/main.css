@@ -1,0 +1,331 @@
+@font-face {
+  font-family: "heydings";
+  src: url("/media/fonts/heydings_icons.ttf"); }
+
+.bg-black {
+  background-color: black; }
+
+.white {
+  color: white; }
+
+.hidden {
+  display: none; }
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s; }
+
+a:hover {
+  color: #993333;
+  text-decoration: inherit; }
+
+body, html {
+  height: 100%;
+  background-color: #151515; }
+
+.logo {
+  margin: 0 auto;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-top: -122px;
+  margin-left: -350px; }
+  .logo img {
+    max-width: 80%; }
+
+.vert-center {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+#logo {
+  max-width: 80%;
+  top: -122px; }
+
+.home {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.nav-links {
+  height: 50%; }
+
+.nav-widget {
+  -webkit-transition: 0.75s;
+  -moz-transition: 0.75s;
+  -o-transition: 0.75s;
+  transition: 0.75s;
+  height: 100%;
+  opacity: 0;
+  z-index: 99;
+  position: relative;
+  color: #999999; }
+
+.brand-info {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 50px; }
+  .brand-info img {
+    width: 100%;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+    padding: 10px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    cursor: pointer; }
+  .brand-info img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0); }
+
+.top img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -50%;
+  margin-top: 50px; }
+
+.nav-widget:hover {
+  opacity: 1; }
+
+.spotlight {
+  -webkit-transition: 0.75s;
+  -moz-transition: 0.75s;
+  -o-transition: 0.75s;
+  transition: 0.75s;
+  opacity: 0.3;
+  position: absolute;
+  top: 135px;
+  left: 200px;
+  z-index: 1;
+  border-bottom: 200px solid white;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  height: 0;
+  width: 10px; }
+
+.top-widget {
+  color: #999999;
+  font-family: Cambria, Georgia, "New Century Schoolbook", "Century Schoolbook L", "Times New Roman", serif;
+  -webkit-transition: 0.75s;
+  -moz-transition: 0.75s;
+  -o-transition: 0.75s;
+  transition: 0.75s;
+  height: 100%;
+  opacity: 0;
+  z-index: 99;
+  position: relative;
+  margin-top: 50px; }
+  .top-widget p {
+    text-align: center;
+    border-bottom: 1px solid #666666;
+    font-size: 1.1em;
+    padding-bottom: 10px;
+    margin: 0 5px; }
+  .top-widget a:hover {
+    color: #999999; }
+
+.mobile-show {
+  opacity: 1; }
+
+.top-widget:hover {
+  opacity: 1; }
+
+.head-nav {
+  margin-top: 30px; }
+  .head-nav span {
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+    margin-right: 20px;
+    font-family: Cambria, Georgia, "New Century Schoolbook", "Century Schoolbook L", "Times New Roman", serif;
+    color: #333333;
+    font-size: 14px; }
+  .head-nav span:hover {
+    color: #0088cc; }
+
+.content-block {
+  margin-top: 50px; }
+  .content-block .title {
+    margin-bottom: 30px;
+    color: #444444;
+    font-family: Cambria, Georgia, "New Century Schoolbook", "Century Schoolbook L", "Times New Roman", serif;
+    line-height: 20px;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: -1px; }
+    .content-block .title .strong {
+      color: white; }
+  .content-block p {
+    color: #999999;
+    font-family: Cambria, Georgia, "New Century Schoolbook", "Century Schoolbook L", "Times New Roman", serif;
+    line-height: 25px; }
+
+.no-margin {
+  margin-top: 0; }
+
+footer {
+  font-family: Cambria, Georgia, "New Century Schoolbook", "Century Schoolbook L", "Times New Roman", serif;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 100px;
+  padding-bottom: 30px; }
+  footer .container {
+    border-top: 1px solid #444444; }
+  footer p {
+    color: #666666;
+    padding: 10px 0;
+    text-align: left; }
+
+.portfolio-showcase .row {
+  padding-bottom: 1px; }
+.portfolio-showcase .custom3 {
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  opacity: 0.28;
+  padding: 0 !important; }
+  .portfolio-showcase .custom3 .img-border {
+    margin: 0 1px;
+    background-size: 120% cover;
+    height: 170px;
+    background-position: 0% 0%;
+    background-repeat: none;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s; }
+  .portfolio-showcase .custom3 .shuffled {
+    background-position: 100% 0%; }
+.portfolio-showcase .bright, .portfolio-showcase .custom3:hover {
+  opacity: 1; }
+
+.img-overlay {
+  position: relative;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background-color: transparent;
+  text-align: center; }
+  .img-overlay .plus {
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    line-height: 170px;
+    text-shadow: 2px 2px #666666; }
+  .img-overlay .magnify {
+    font-family: "heydings"; }
+  .img-overlay .text {
+    color: white;
+    text-shadow: 2px 2px #666666;
+    line-height: 20px;
+    position: relative;
+    margin-top: -40px;
+    font-weight: bold;
+    text-transform: uppercase; }
+
+.hero-map {
+  padding: 20px;
+  background-color: #444444; }
+
+.striped-cover {
+  background-image: url("/media/img/bgstripes.png");
+  background-repeat: repeat;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  background-color: black;
+  overflow: hidden;
+  padding: 15px; }
+
+.upper-case {
+  text-transform: uppercase; }
+
+.side-paddings {
+  padding: 0 15px; }
+
+.big {
+  font-family: "Karla", sans-serif;
+  font-weight: 200;
+  font-size: 5em;
+  text-spacing: -2px;
+  margin: 0; }
+
+.slanted {
+  margin: 0;
+  font-style: italic; }
+  .slanted .strong {
+    color: #993333; }
+
+#about-us-img {
+  width: 100%; }
+
+.events-block {
+  margin-bottom: 25px;
+  overflow: hidden; }
+  .events-block .event .img-border {
+    width: 100%;
+    height: 150px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: 0.75s;
+    -moz-transition: 0.75s;
+    -o-transition: 0.75s;
+    transition: 0.75s; }
+  .events-block .event .img-border:hover {
+    filter: none;
+    -webkit-filter: grayscale(0); }
+  .events-block .event .desc {
+    background-color: white;
+    color: #242626;
+    padding: 10px 15px;
+    font-family: Cambria, Georgia, "New Century Schoolbook", "Century Schoolbook L", "Times New Roman", serif; }
+
+.press-twist .img-border {
+  height: 400px !important; }
+
+.event-dets-gallery {
+  padding: 0 30px;
+  margin-top: 75px; }
+  .event-dets-gallery .img {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: 0.75s;
+    -moz-transition: 0.75s;
+    -o-transition: 0.75s;
+    transition: 0.75s; }
+  .event-dets-gallery .main {
+    margin-bottom: 15px; }
+  .event-dets-gallery .sub .img {
+    height: 120px;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1); }
+  .event-dets-gallery .sub .img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0); }
+  .event-dets-gallery .sub .col-lg-4 {
+    padding: 5px; }
+  .event-dets-gallery .sub .col-lg-4:first-child {
+    padding-left: 0; }
+  .event-dets-gallery .sub .col-lg-4:last-child {
+    padding-right: 0; }
